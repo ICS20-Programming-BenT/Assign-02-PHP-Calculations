@@ -1,0 +1,37 @@
+/* Created by: Ben Thomson
+* Created on: 03/25/2023
+* This CSS file defines the style for index.html
+* ICS2O-Assign-02-PHP-Calculations
+*/
+
+body {
+  background-color: rgb(221 184 146);
+  font-weight: 900;
+  color: #7f5539;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(30deg 51% 80%);
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900; 
+  background-color: #b08968;
+  padding: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #b08968;
+  padding: 20px;
+}
+
+#result {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900; 
+}
