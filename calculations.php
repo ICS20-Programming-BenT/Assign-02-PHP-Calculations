@@ -13,5 +13,5 @@
 ?>
 
 <h3>Results:</h3>
-The volume of the cone is <?php echo "$volumeRounded" ?><br>
-The surface area of the cone is <?php echo "$surfaceAreaRounded" ?>
+The volume of the cone is <?php echo "$volumeRounded" ?> cm<sup>3</sup>.<br>
+The surface area of the cone is <?php echo "$surfaceAreaRounded" ?> cm<sup>2</sup>.

@@ -5,14 +5,14 @@
 */
 
 body {
-  background-color: rgb(221 184 146);
+  background-color: rgb(119 141 169);
   font-weight: 900;
-  color: #7f5539;
+  color: #0d1b2a;
 }
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: hsl(30deg 51% 80%);
+  background-color: hsl(75deg 6% 87%);
   padding: 40px;
   text-align: center;
 }
@@ -20,18 +20,17 @@ h1 {
 form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
-  background-color: #b08968;
+  background-color: #415a77;
   padding: 20px;
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
-  background-color: #b08968;
+  background-color: #415a77;
   padding: 20px;
 }
 
 #result {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 900;
+  background-color: #415a77;
 }

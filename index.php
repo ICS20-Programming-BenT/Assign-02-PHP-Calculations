@@ -16,7 +16,7 @@
 
     <!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-orange.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
     
     <!-- Link to CSS -->
     <link rel="stylesheet" href="./css/style.css">
@@ -48,16 +48,21 @@
       <!-- User input form -->
       <form action="./calculations.php" method="post" target="result">
         <label for="radiusOfCone">Radius of cone (in cm):</label>
-        <input type="float" id="radius-cone" placeholder="Radius in cm..." name="radius-cone"><br><br>
+        <input type="number" step="0.01" id="radius-cone" placeholder="Radius in cm..." name="radius-cone"><br><br>
         <label for="heightOfCone">Height of cone (in cm):</label>
-        <input type="float" id="height-cone" placeholder="Height in cm..." name="height-cone"><br><br>
+        <input type="number" step="0.01" id="height-cone" placeholder="Height in cm..." name="height-cone"><br><br>
         <input type="submit" value="Calculate">
       </form>
       
       <!-- Space for displaying user information -->
       <iframe id="result" name="result">
       </iframe>
-      
+      <br>
+
+      <!-- Default Slider -->
+      <?php echo "<p>Please use the slider below to indicate how much this web page helped you. Thanks!" ?>
+      <input class="mdl-slider mdl-js-slider" type="range"
+        min="0" max="100" value="0" tabindex="0">
     </main>
   </body>
 </html>
