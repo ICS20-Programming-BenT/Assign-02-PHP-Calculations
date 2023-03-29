@@ -63,6 +63,12 @@
       <?php echo "<p>Please use the slider below to indicate how much this web page helped you. Thanks!" ?>
       <input class="mdl-slider mdl-js-slider" type="range"
         min="0" max="100" value="0" tabindex="0">
+
+      <!-- Gif from Tenor -->
+      <center>
+        <div class="tenor-gif-embed" data-postid="25187332" data-share-method="host" data-aspect-ratio="1" data-width="50%"><a href="https://tenor.com/view/ice-cream-2d-animation-art-dessert-gif-25187332">Ice Cream 2d GIF</a>from <a href="https://tenor.com/search/ice+cream-gifs">Ice Cream GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      </center>
+      <br>
     </main>
   </body>
 </html>
